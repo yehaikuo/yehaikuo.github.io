@@ -1,0 +1,139 @@
+
+.box{
+		width:980px;
+		height:351px;
+		margin:20px auto;
+		background:#f3f2f3;
+		font-family:'微软雅黑';
+		padding-left:16px;}
+	.box h3{
+		font-size:33px;
+		color:#4c5157;
+		margin:7px 0 16px;}
+	.box .l-box{
+		float:left;
+		width:225px;
+		border-left:1px solid #795fa6;
+		border-bottom:1px solid #795fa6;
+		}
+	.box .l-box li{
+		float:left;
+		background:#9077bd;
+		border-top:1px solid #795fa6;
+		border-right:1px solid #795fa6;}
+	.box .l-box li a{
+		display:block;
+		width:74px;
+		height:70px;
+		line-height:70px;
+		text-align:center;
+		color:#fff;
+		}
+	.box .l-box li .onepx{
+		height:71px;}
+	.box .l-box .d-purple{
+		background:#7e65ab;}
+		
+	/*中间左边*/
+	.cent{
+		float:left;
+	
+		height:287px;}
+	.cent .left{
+		float:left;
+		position:relative;
+		margin:0 3px;}
+	.name{
+		position: absolute;
+		left:12px;
+		bottom:10px;
+		}
+	.cent a{
+		display:block;
+		padding-left:13px;;
+		height:25px;
+		line-height:25px;
+		font-size:12px;
+		color:#fff;
+		/*position:absolute;
+		bottom:0;
+		left:0;*/
+		position: relative;
+		background: url(../img/title-bg.png) repeat-x 0 0;
+		}
+	
+	.cent i{
+		height:25px;
+		width:13px;
+		background: url(../img/title-bg.png) no-repeat -286px -25px;
+		position:absolute;
+		top:0;
+		right:-13px;}
+	/*中间右边*/
+	.cent .right{
+		float:left;
+	}
+	.cent .right .r-top{
+		position:relative;
+		margin-bottom:3px;
+		}
+	.cent .right .r-bottom{
+		position:relative;
+		}
+	
+		
+/*最右边*/
+	.r-box{
+		width:247px;
+		float:left;
+		margin-left:20px;}
+	.r-box ul{
+		width:258px;
+		margin-bottom:3px;}
+	.r-box ul li{
+		width:86px;
+		height:71px;
+		background:#795fa6;
+		text-align:center;
+		line-height:71px;
+		float:left;}
+	.r-box ul li img{
+		vertical-align:top;}
+	.r-box ul li h2{
+		font-size:18px;
+		color:#fff;
+		width:36px;
+		line-height:26px;
+		padding:10px 0 0 25px;}
+	
+	.r-box .r-bottom{
+		position:relative;
+		}
+	.r-bottom a{
+		display:block;
+		padding-left:13px;;
+		height:25px;
+		line-height:25px;
+		font-size:12px;
+		color:#fff;
+		/*position:absolute;
+		bottom:0;
+		left:0;*/
+		position: relative;
+		background: url(../img/title-bg.png)repeat-x 0 0;
+		}
+	.name:hover a{
+		background: url(../img/title-bg.png) repeat-x 0 -50px;
+		}
+	.r-bottom i{
+		height:25px;
+		width:13px;
+		background:url(../img/title-bg.png) no-repeat -286px -25px;
+		position:absolute;
+		top:0;
+		right:-13px;}
+	.name:hover i{
+		background: url(../img/title-bg.png)no-repeat -286px -75px;
+		}
+	.r-box ul li a{
+		margin:0;}
