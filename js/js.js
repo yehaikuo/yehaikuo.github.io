@@ -1,4 +1,6 @@
 // JavaScript Document
+
+
 window.onload=function ()
 {
 	var obj = document.getElementById("box");
@@ -16,7 +18,7 @@ window.onload=function ()
 	var matter = document.getElementById("matter");
 	var shut = document.getElementById("shut");
 	var matterDiv = document.getElementsByTagName("*");
-	var oSwf=document.getElementById('swf');
+	var oLoad=document.getElementById('load');
 	var attrDiv = [];
 	var attrShut = [];
 	var attrShutA = [];
@@ -35,6 +37,9 @@ window.onload=function ()
 	var oRight1=document.getElementById('personalC');
 	var sUl=oRight1.getElementsByTagName('ul')[0];
 	
+	setTimeout(function(){
+		oLoad.className='animated zoomOut';
+	},2000);
 	
 	sUl.onmouseover=function(ev)
 	{

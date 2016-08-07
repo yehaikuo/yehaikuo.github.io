@@ -1,4 +1,17 @@
-﻿function getStyle(obj, attr)
+﻿
+function DOMReady(fn){
+	if(document.addEventListener){
+		document.addEventListener('DOMContentLoaded',function(){
+			fn&&fn();
+		},false);
+	}else{
+		document.attachEvent('onreadystatechange',function(){
+			fn&&fn();
+		});
+	}
+}
+
+function getStyle(obj, attr)
 {
 	if(obj.currentStyle)	//IE
 	{
