@@ -42,7 +42,7 @@ window.onload=function ()
 		oLoad.addEventListener('webkitAnimationEnd',function(){
 			oLoad.style.display='none';
 		});
-	},2000);
+	},1500);
 	
 	sUl.onmouseover=function(ev)
 	{
