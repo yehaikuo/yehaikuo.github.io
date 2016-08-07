@@ -39,6 +39,9 @@ window.onload=function ()
 	
 	setTimeout(function(){
 		oLoad.className='animated zoomOut';
+		oLoad.addEventListener('webkitAnimationEnd',function(){
+			oLoad.style.display='none';
+		});
 	},2000);
 	
 	sUl.onmouseover=function(ev)
